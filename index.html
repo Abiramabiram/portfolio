@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0 10px;
+      min-height: 100vh;
+      background-color: #000;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      color: #fff;
+      background-image: radial-gradient(white 1px, transparent 1px);
+      background-size: 20px 20px;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(4px);
+      padding: 30px;
+      border-radius: 12px;
+      width: 90%;
+      max-width: 500px;
+      text-align: center;
+      margin: 20px 0;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      box-sizing: border-box;
+    }
+    .spacer{
+        padding: 10px;
+        border: none;
+    }
+
+    .container h1 {
+      margin-top: 0;
+      font-size: 2em;
+    }
+
+    .details {
+      text-align: left;
+      margin-top: 20px;
+    }
+
+    .details p {
+      margin: 6px 0;
+    }
+
+    .details a {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 500px) {
+      .container {
+        padding: 20px;
+        font-size: 0.95em;
+      }
+
+      .container h1 {
+        font-size: 1.5em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- First container -->
+  <div class="container">
+    <h1>I am Abiram</h1>
+    <div class="details">
+      <p id="aboutMe"> A passionate and self-motivated web developer. I hold a Bachelor of Engineering degree in Computer Science from Marthandam College of Engineering and Technology (MACET).</p>
+      <p>I’m passionate about web development and have hands-on experience building websites and applications using HTML, CSS, and JavaScript.</p><hr class="spacer"><hr>
+      <p><strong>Name:</strong> B. Abiram</p>
+      <p><strong>Email:</strong> sparrowabx03@gmail.com</p>
+      <p><strong>Location:</strong> Karungal, India</p>
+      <p><strong>Profession:</strong> Software Developer</p>
+      <p><strong>Skills:</strong> HTML, CSS, JavaScript, Web Development</p>
+    </div>
+  </div>
+
+  <!-- Second container -->
+  <div class="container">
+    <h1>Contacts</h1>
+    <div class="details">
+      <p><strong>Email:</strong>  sparrowabx03@gmail.com</p>
+      <p><strong>Phone number:</strong>+91 9952295121</p>
+      <p><strong>linked in:</strong> <a href="https://www.linkedin.com/feed/">linkedin.com/in/Abiram</a> </p>
+    </div>
+  </div>
+
+</body>
+</html>
